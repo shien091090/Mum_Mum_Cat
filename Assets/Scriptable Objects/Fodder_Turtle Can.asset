@@ -1,0 +1,249 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 87042c2cf98fdc14390edb101320cbe4, type: 3}
+  m_Name: Fodder_Turtle Can
+  m_EditorClassIdentifier: 
+  fodderType: 10
+  fodderCollisionType: 0
+  imageSprite: {fileID: 21300000, guid: b0132c865efdee34a803824dd861fc6c, type: 3}
+  frameLineSprite: {fileID: 21300000, guid: e24545e75c0f5a44db7ffaf3981beafa, type: 3}
+  colliderSize: {x: 46, y: 52}
+  fallCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: -0.043548502
+      outSlope: -0.043548502
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.41949153
+    - serializedVersion: 3
+      time: 2.3
+      value: 0
+      inSlope: -0.5917981
+      outSlope: -0.5917981
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.1779661
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  shakeCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0.5
+      inSlope: 0.05950693
+      outSlope: 0.05950693
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.7890639
+    - serializedVersion: 3
+      time: 0.38145924
+      value: 0.505
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 136
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.7642664
+      value: 0.5
+      inSlope: -0.049603075
+      outSlope: -0.049603075
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.8550967
+      outWeight: 0.98341924
+    - serializedVersion: 3
+      time: 1.1457257
+      value: 0.495
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 136
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1.5002267
+      value: 0.5
+      inSlope: 0.04104599
+      outSlope: 0.04104599
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.6713284
+      outWeight: 0.8437095
+    - serializedVersion: 3
+      time: 1.9086442
+      value: 0.505
+      inSlope: -0.008012407
+      outSlope: -0.008012407
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 2.2914515
+      value: 0.5
+      inSlope: -0.061536755
+      outSlope: -0.061536755
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.71019346
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  rotationCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 350.01816
+      outSlope: 350.01816
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.08917989
+    - serializedVersion: 3
+      time: 0.40140688
+      value: 15
+      inSlope: 0.031066747
+      outSlope: 0.031066747
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 1
+    - serializedVersion: 3
+      time: 0.7652805
+      value: 0.5
+      inSlope: -350.0812
+      outSlope: -350.0812
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.106775604
+      outWeight: 0.083667845
+    - serializedVersion: 3
+      time: 1.1472459
+      value: -15
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 136
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1.5292113
+      value: 0.5
+      inSlope: 352.66666
+      outSlope: 352.66666
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.23638992
+      outWeight: 0.09171028
+    - serializedVersion: 3
+      time: 1.9111767
+      value: 15
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 136
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 2.2944918
+      value: 0
+      inSlope: -328.8413
+      outSlope: -328.8413
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.10336242
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  score: 15
+  hpEffect: 10
+  specialTag: 1
+  fodderEffectAction:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1235506788967122782, guid: d092501387186eb4991af06184f6b720,
+          type: 3}
+        m_MethodName: set_StateName
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: "\u901F\u5EA6\u8B8A\u5316"
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1235506788967122782, guid: d092501387186eb4991af06184f6b720,
+          type: 3}
+        m_MethodName: set_Duration
+        m_Mode: 4
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 7
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1235506788967122782, guid: d092501387186eb4991af06184f6b720,
+          type: 3}
+        m_MethodName: set_AntagonismValue
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 3
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1235506788967122782, guid: d092501387186eb4991af06184f6b720,
+          type: 3}
+        m_MethodName: AddInput
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1235506788967122782, guid: d092501387186eb4991af06184f6b720,
+          type: 3}
+        m_MethodName: AddBuff
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_TypeName: FodderEffectAction, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null

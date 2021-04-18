@@ -1,0 +1,162 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 87042c2cf98fdc14390edb101320cbe4, type: 3}
+  m_Name: Fodder_Cat Mushroom
+  m_EditorClassIdentifier: 
+  fodderType: 9
+  fodderCollisionType: 0
+  imageSprite: {fileID: 21300000, guid: 78944dbf7b6533b448f280d71d0556d6, type: 3}
+  frameLineSprite: {fileID: 21300000, guid: 97b7cb1e4f31eb94b991a23b810ed780, type: 3}
+  colliderSize: {x: 43, y: 58}
+  fallCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: -0.7329196
+      outSlope: -0.7329196
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.29028103
+    - serializedVersion: 3
+      time: 0.9634148
+      value: 0.71423817
+      inSlope: 0.029366178
+      outSlope: 0.029366178
+      tangentMode: 0
+      weightedMode: 3
+      inWeight: 0.65694064
+      outWeight: 0.37548864
+    - serializedVersion: 3
+      time: 2.050161
+      value: 0.32437107
+      inSlope: 0.12315804
+      outSlope: 0.12315804
+      tangentMode: 0
+      weightedMode: 3
+      inWeight: 0.6198
+      outWeight: 0.36574683
+    - serializedVersion: 3
+      time: 3
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 136
+      weightedMode: 1
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  shakeCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0.5
+      inSlope: 0.014441182
+      outSlope: 0.014441182
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.57203394
+    - serializedVersion: 3
+      time: 1
+      value: 0.43
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 136
+      weightedMode: 3
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1.6059351
+      value: 0.500322
+      inSlope: 0.18480107
+      outSlope: 0.18480107
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.15385017
+      outWeight: 0.41385806
+    - serializedVersion: 3
+      time: 2.21
+      value: 0.57
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 136
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 3
+      value: 0.5
+      inSlope: -0.16741417
+      outSlope: -0.16741417
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.30572838
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  rotationCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: -366.6551
+      outSlope: -366.6551
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.31779662
+    - serializedVersion: 3
+      time: 1
+      value: -280
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 136
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 2.2
+      value: 280
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 136
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 3
+      value: 0
+      inSlope: -483.72668
+      outSlope: -483.72668
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.44491532
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  score: 10
+  hpEffect: -10
+  specialTag: 1
+  fodderEffectAction:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: FodderEffectAction, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null

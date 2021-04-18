@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 45d2c5562142cb74e8a605f4d8550620, type: 3}
+  m_Name: Stage_7
+  m_EditorClassIdentifier: 
+  stageIndex: 7
+  sceneName: 
+  bgmName: bgm_game_3
+  thresholdScore: 400
+  stateFodders:
+  - fodder: 1
+    buildFreq: 3
+  - fodder: 2
+    buildFreq: 8
+  - fodder: 3
+    buildFreq: 8
+  - fodder: 4
+    buildFreq: 4
+  - fodder: 5
+    buildFreq: 10
+  - fodder: 7
+    buildFreq: 10
+  - fodder: 11
+    buildFreq: 1
+  - fodder: 6
+    buildFreq: 6
+  - fodder: 8
+    buildFreq: 2
+  - fodder: 9
+    buildFreq: 3
+  - fodder: 10
+    buildFreq: 2
+  nextStage: {fileID: 11400000, guid: 8b15bea96a418d943bb15fa5f021b915, type: 2}
+  hpDamageSpeed: -3
